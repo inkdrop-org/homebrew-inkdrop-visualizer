@@ -13,6 +13,6 @@ class InkdropVisualizer < Formula
 
   def post_install
     # This assumes that `npx` is available and in PATH.
-    system "npx playwright install chromium"
+    system "npx", "playwright", "install", "chromium"
   end
 end
