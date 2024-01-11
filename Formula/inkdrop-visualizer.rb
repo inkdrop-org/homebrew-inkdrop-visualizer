@@ -1,9 +1,9 @@
 class InkdropVisualizer < Formula
   desc "Visualize your Terraform configuration and plan as a graph"
-  url "https://github.com/inkdrop-org/terraform-visualizer-cli/releases/download/v1.0.14/inkdrop-brew-v1.0.14.tar.gz"
-  sha256 "d20f08da01532a91dff98f2a9ca79387e2ab396aac946322efd429c436b55b16"
+  url "https://github.com/inkdrop-org/terraform-visualizer-cli/releases/download/v1.0.15/inkdrop-brew-v1.0.15.tar.gz"
+  sha256 "5ebbb4e5dc0e970a579ef1d8940fc7aea984639bb92e43363d9ad1f161d27983"
   license "MIT"
-  version "1.0.14"
+  version "1.0.15"
 
   def install
     bin.install "inkdrop"
